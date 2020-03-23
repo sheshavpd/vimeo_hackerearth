@@ -1,0 +1,100 @@
+html {
+  overflow-y: auto;
+}
+body {
+  font-family: Quicksand;
+}
+
+div[disabled] {
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.page-title {
+  font-weight: bold;
+  font-size: 30px;
+  color: #26bba6;
+}
+
+.page-header {
+  font-weight: bold;
+  font-size: 23px;
+  border-bottom: 2px solid rgb(236, 236, 238);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dateDiv {
+  display: inline-block;
+  font-weight: bold;
+  min-width: 100px;
+  padding: 3px 3px 3px 5px;
+  font-size: 14px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.dateDiv.deposit {
+  background: #dbfefa;
+  color: #009688;
+  border: 1px solid #009688;
+  border-width: 1px 1px 0px 1px;
+}
+
+.dateDiv.withdraw {
+  background: #ffe7e7;
+  color: #ff5858;
+  border: 1px solid #ff5858;
+  border-width: 1px 1px 0px 1px;
+}
+
+.card:hover {
+  transition: box-shadow 0.5s;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.32),
+    0 0 0 1px rgba(10, 10, 10, 0.02);
+}
+
+.card.deposit {
+  border: 1px solid #009688;
+}
+
+.card.withdraw {
+  border: 1px solid #ff5858;
+}
+
+.withdraw-text {
+  color: #ff5858;
+}
+
+.deposit-text {
+  color: #009688;
+}
+
+.hover-popup {
+  background: #757373;
+  opacity: 0.8;
+  border-radius: 3px;
+  padding: 3px;
+  color: #fff;
+}
+
+.filter-container {
+  background: #0462b312;
+  padding: 10px;
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-item:hover {
+  background: #f1f1f1;
+  cursor: pointer;
+}
+
+.dropdown-item.is-active {
+  background: #2daf97;
+  color: #fff;
+}
